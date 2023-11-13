@@ -121,9 +121,9 @@
                     }
                 });
             }
-
+            generateRandomID(1);
             // Automatic trigger every 10 seconds for 6 times
-            var count = 1;
+            var count = 2;
             var intervalId = setInterval(function () {
                 if (count <= 6) {
                     generateRandomID(count);
